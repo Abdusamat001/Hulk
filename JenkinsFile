@@ -23,7 +23,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out the code...'
-                git 'https://github.com/Beks011/DemoQABeks.git' // замените на URL вашего репозитория
+                git 'https://github.com/Abdusamat001/Hulk.git' // замените на URL вашего репозитория
             }
         }
 
@@ -37,7 +37,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    def project = params.PROJECT ?: 'DemoQAWinter24'
+                    def project = params.PROJECT ?: 'DemoQaWinter24'
                     def testSuite = params.TEST_SUITE ?: 'Smoke'
 
                      echo "Running tests for project: ${project}, test suite: ${testSuite}"
