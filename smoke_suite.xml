@@ -7,7 +7,7 @@
     <test verbose="2" preserve-order="true" name="/Users/macuser/Documents/DemoQaWinter24">
         <classes>
 
-            <class name="ProgressBarTest"></class>
+            <class name="AlertTest"></class>
         </classes>
     </test>
 </suite>
