@@ -23,7 +23,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out the code...'
-                git 'https://github.com/Abdusamat001/Hulk.git' // замените на URL вашего репозитория
+                git branch: 'main', url: 'https://github.com/Abdusamat001/Hulk.git' // замените на URL вашего репозитория
             }
         }
 
