@@ -1,12 +1,12 @@
 pipeline {
     agent any
     tools {
-        maven "MAVEN"
+        maven "MAVEN_HOME"
     }
     parameters {
         choice(
             name: "PROJECT",
-            choices: ['DemoQaWinter24', 'Orange'],
+            choices: ['DemoQaWinter24'],
             description: 'Choose project'
         )
         choice(
