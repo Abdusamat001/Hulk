@@ -11,7 +11,7 @@ pipeline {
         )
         choice(
             name: "TEST_SUITE",
-            choices: ['All', 'Smoke', 'Regression', 'E2E'],
+            choices: ['All', 'Smoke', 'Regression', 'E2E_Test'],
             description: 'Choose the suite of tests to run. Select "All" to run all suites.'
         )
         choice(
